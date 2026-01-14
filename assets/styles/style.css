@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.work_sans_font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* global styles */
+.display-flex {
+    display: flex;
+}
+
+.paragraph {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #727272;
+    line-height: 26px;
+}
+
+.btn {
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.text-dark-1 {
+    color: #131313;
+}
+
+.text-dark-2 {
+    color: #424242;
+}
+
+#header_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.nav_bar {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    color: #131313;
+}
+
+.menu {
+    gap: 24px;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.menu_item a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.banner-content {
+    max-width: 862px;
+    margin: 0 auto;
+    margin-top: 102px;
+    text-align: center;
+}
+
+.banner-heading {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-detail {
+    margin: 32px 0px;
+}
+
+.banner-image {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .nav_bar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-detail {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu_item a {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+
+    .banner-content {
+        margin-top: 50px;
+    }
+
+    .banner-heading {
+        font-size: 2rem;
+    }
+
+    .banner-image {
+        max-width: 95%;
+    }
+}
