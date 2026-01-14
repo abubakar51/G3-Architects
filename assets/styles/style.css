@@ -107,6 +107,42 @@ body {
     width: 100%;
 }
 
+.team-section {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 342px);
+    grid-template-rows: repeat(2, 342px);
+    gap: 24px;
+}
+
+.team-heading {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+
+}
+
+.team-heading .quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.team-heading .features {
+    color: #FF900E;
+}
+
+.team-detail .team-p {
+    margin-bottom: 32px;
+}
+
 @media screen and (max-width: 780px) {
     .nav_bar {
         flex-direction: column;
