@@ -1,177 +1,276 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .work_sans_font {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* global styles */
 .display-flex {
-    display: flex;
+  display: flex;
 }
 
 .paragraph {
-    font-size: 1rem;
-    font-weight: normal;
-    color: #727272;
-    line-height: 26px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #727272;
+  line-height: 26px;
 }
 
 .btn {
-    background-color: #FF900E;
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 20px 25px;
-    border: none;
-    border-radius: 8px;
-    text-transform: capitalize;
+  background-color: #ff900e;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  text-transform: capitalize;
 }
 
 .text-dark-1 {
-    color: #131313;
+  color: #131313;
 }
 
 .text-dark-2 {
-    color: #424242;
+  color: #424242;
 }
 
 #header_container {
-    max-width: 1920px;
-    margin: 0 auto;
-    background-color: rgba(255, 144, 14, 0.1);
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 50px 0px 45px;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 
 .nav_bar {
-    max-width: 85%;
-    margin: 0 auto;
-    padding-top: 50px;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo h2 {
-    font-size: 2.8125rem;
-    font-weight: bold;
-    color: #131313;
+  font-size: 2.8125rem;
+  font-weight: bold;
+  color: #131313;
 }
 
 .menu {
-    gap: 24px;
+  gap: 24px;
 }
 
 .menu_item {
-    list-style: none;
+  list-style: none;
 }
 
 .menu_item a {
-    text-decoration: none;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+  text-decoration: none;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .banner-content {
-    max-width: 862px;
-    margin: 0 auto;
-    margin-top: 102px;
-    text-align: center;
+  max-width: 862px;
+  margin: 0 auto;
+  margin-top: 102px;
+  text-align: center;
 }
 
 .banner-heading {
-    font-size: 4rem;
-    font-weight: bold;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .banner-detail {
-    margin: 32px 0px;
+  margin: 32px 0px;
 }
 
 .banner-image {
-    max-width: 85%;
-    margin: 0 auto;
-    margin-top: 50px;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .banner-image img {
-    width: 100%;
+  width: 100%;
 }
 
 .team-section {
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    gap: 73px;
-    margin-top: 85px;
+  width: 85%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 73px;
+  margin-top: 85px;
 }
 
 .team-images {
-    display: grid;
-    grid-template-columns: repeat(2, 342px);
-    grid-template-rows: repeat(2, 342px);
-    gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 342px);
+  grid-template-rows: repeat(2, 342px);
+  gap: 24px;
 }
-
+.team-images img {
+  width: 100%;
+  height: 100%;
+}
 .team-heading {
-    font-size: 2.8125rem;
-    font-weight: bold;
-    margin-bottom: 24px;
-
+  font-size: 2.8125rem;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
 
 .team-heading .quick {
-    color: #727272;
-    font-weight: 500;
+  color: #727272;
+  font-weight: 500;
 }
 
 .team-heading .features {
-    color: #FF900E;
+  color: #ff900e;
 }
 
 .team-detail .team-p {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
-
+.experience-section {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 130px;
+  justify-content: center;
+  align-items: center;
+  gap: 146px;
+}
+.experience-detail {
+  max-width: 600px;
+}
+.experience-heading {
+  font-size: 2.8125;
+  font-weight: bold;
+  margin-bottom: 24px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.experience-p {
+  margin-bottom: 30px;
+}
+.experience-card {
+  padding: 30px;
+  box-shadow: 0px 0px 10px 1px rgba(19, 19, 19, 0.1);
+  margin-bottom: 20px;
+}
+.card-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.architect-apu {
+  position: relative;
+  height: 100%;
+}
+.architect-apu img {
+  width: 100%;
+  max-width: 708px;
+  height: 100%;
+}
+.architect-btn {
+  position: absolute;
+  left: -92px;
+  bottom: -77px;
+  padding: 45px 42px;
+}
+.architect-btn h2 {
+  font-size: 4.0625rem;
+  line-height: 70px;
+}
+.architect-btn p {
+  font-size: 1.5625rem;
+  line-height: 40px;
+}
+@media screen and (max-width: 1720px) {
+  .experience-detail {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .experience-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .experience-detail {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .team-images {
+    grid-template-columns: repeat(2, 240px);
+    grid-template-rows: repeat(2, 240px);
+  }
+}
+@media screen and (max-width: 1130px) {
+  /* .team-images {
+    grid-template-columns: repeat(2, 342px);
+    grid-template-rows: repeat(2, 342px);
+  } */
+  .team-section {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 780px) {
-    .nav_bar {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .nav_bar {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    .banner-detail {
-        padding: 0 24px;
-    }
+  .banner-detail {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .menu_item a {
-        font-size: 1rem;
-    }
+  .menu_item a {
+    font-size: 1rem;
+  }
 
-    .btn {
-        font-size: 0.9rem;
-    }
+  .btn {
+    padding: 12px 12px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+  }
+  #header_container {
+    padding: 25px 0 15px;
+  }
+  .banner-content {
+    margin-top: 50px;
+  }
 
-    .banner-content {
-        margin-top: 50px;
-    }
+  .banner-heading {
+    font-size: 2rem;
+  }
 
-    .banner-heading {
-        font-size: 2rem;
-    }
-
-    .banner-image {
-        max-width: 95%;
-    }
+  .banner-image {
+    max-width: 95%;
+  }
+  .team-section {
+    gap: 40px;
+    margin-top: 45px;
+  }
+  .team-images {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+  .team-heading {
+    font-size: 2rem;
+  }
 }
